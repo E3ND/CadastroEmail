@@ -1,0 +1,221 @@
+body {
+    background: rgb(0, 0, 12);
+}
+
+/* Modal com aviso */
+.warning {
+    display: none;
+}
+
+.warningTxt {
+    color: white;
+    background: green;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem;
+    margin: 0 5rem 3rem 2rem;
+}
+
+.textoPrincipal {
+    width: 50rem;
+    margin: auto;
+    padding: 1rem 0 1rem 0;
+    color: rgb(195, 205, 216);
+    font-size: 3rem;
+   
+}
+
+.formulario{
+    width: 50rem;
+    margin: auto;
+   
+}
+
+.partTwo {
+    margin-top: 2rem;
+    color: white;
+}
+
+.allForm {
+    width: 70rem;
+    height: auto;
+    margin: auto;
+    
+
+    background: rgb(202, 199, 199);
+    border-radius: 0.35rem 0.35rem 0.35rem 0.35rem;
+    box-shadow: 0.50rem 0.50rem 0.50rem rgba(255, 255, 255, 0.514);
+   
+}
+
+.allFormTwo {
+    width: 68rem;
+    height: auto;
+    margin: auto;
+    
+}
+
+.forms{
+    width: 49.3rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    padding-left: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.desc {
+    width: 49.3rem;
+    height: 6rem;
+    border: none;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    padding-left: 0.6rem;
+    margin-bottom: 0.5rem;
+
+    overflow-y: scroll;
+    resize: none;
+}
+
+.buttons {
+    width: 15rem;
+    height: 2.5rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    background-color: rgb(195, 205, 216);
+
+    border: 1.5px rgb(165, 171, 177) solid;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.buttons:hover {
+    background-color: rgb(165, 171, 177);
+    border-color: rgb(165, 171, 177);
+    cursor: pointer;
+}
+
+.card {
+    background: rgb(0, 0, 12);
+    height: auto;
+    border-radius: 0.50rem 0.50rem 0.50rem 0.50rem;
+}
+
+.textoOne {
+    margin-bottom: 0.50rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.textoTwo {
+    margin-bottom: 0.50rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.90rem;
+}
+
+.textoAll {
+    margin-top: 1rem;
+    margin-bottom: 0.50rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.90rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+
+.buttonFinal {
+    width: 15rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    padding-left: 0.5rem;
+    background-color: rgb(195, 205, 216);
+
+    border: 1.5px rgb(165, 171, 177) solid;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+
+}
+
+.buttonFinal:hover {
+    background-color: rgb(165, 171, 177);
+    border-color: rgb(165, 171, 177);
+    cursor: pointer;
+    
+}
+
+.buttonFinal a  {
+    text-decoration: none;
+    width: 0.20rem;
+    padding-right: 1.20rem;
+    
+    color: white;
+    margin-top: 0.40rem;
+    
+}
+
+.buttonFinalTwo a {
+    text-decoration: none;
+    width: 0.20rem;
+    padding-right: 1.20rem;
+    
+    color: white;
+    margin-top: 0.40rem;
+}
+
+center {
+    margin-top: 0.5rem;
+    color: black;
+}
+
+/* valicão */
+
+
+.modal{
+    background-color: rgb(165, 171, 177);
+    
+    margin: auto;
+    margin-top: 9rem;
+
+    width: 45rem;
+    height: 15rem;
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+    
+    padding: 2.4rem;
+    box-shadow: 0.50rem 0.50rem 0.50rem rgba(126, 104, 104, 0.397);
+}
+.modal p {
+    font-size: 2rem;
+    padding-left: 1rem;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt2 p {
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#viewMap {
+    height: 40rem;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.formularioEnviar {
+    display: none;
+}
+.formularioEnviar2 {
+    display: none;
+}
+.formularioEnviar3 {
+    display: none;
+}
